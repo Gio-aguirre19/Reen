@@ -5,9 +5,10 @@
 	}
 }
 .topBar{
-	width: 100%;
 	height: 35px;
 	background: #f6f7fb;
+	width: 100%;
+	top: 0;
 }
 .MMP{
 	padding-right: 5px;
@@ -37,26 +38,25 @@ a{
 a:hover{
 	text-decoration: inherit;
 	cursor: pointer;
+	color: #1ABB9C;
 }
-.navigation{
-	padding: 15px;
-	float: none !important;
-}
-.icon{
-	float: left;
-}
-nav{
-	margin: 0 auto;
-	display: inline;
-	font-size: 12px;
+.navbar{
+	z-index: 150;
 	text-align: center;
-	background: white;
+	background-color: white;
+	padding: 20px;
+	margin: 0;
 }
-nav li{
-	font-weight: bold;
-	display: inline;
-	padding: 10px;
-	list-style-type: none;
+@media(max-width: 963px;){
+	.icon{
+		padding-right: 50px;
+	}
+}
+.nav{
+	text-align: center;
+}
+.nav a{
+	color: #506A85 !important;
 }
 input.mfg{
 	border: none;
@@ -67,30 +67,9 @@ input.mfg{
 body{
 	color: #516b82;
 }
-.bodyT{
-	background: url(../img/Slide1.png) center;
-	background-size: cover;
-	padding: 250px 0;
-	text-align: center;
+.TextnIcon{
+	background-color: white;
 }
-.bodyT h1{
-	color: white;
-	font-weight: bold;
-	font-size: 65px;
-	padding-bottom: 10px;
-}
-.bodyT p{
-	color: #9fabb9;
-	font-size: 20px;
-	padding-bottom: 15px;
-}
-.bodyT button{
-	color: white;
-	font-weight: bold;
-	background: #00bb9c;
-	padding: 17px 43px;
-	border-radius: 3px;
-	}
 .midTop{
 	color: #516b82;
 	padding: 50px 0;
@@ -125,6 +104,11 @@ body{
 	overflow: hidden;
 	font-size: 13px;
 }
+@media(max-width: 1200px){
+	.picBody{
+		padding-bottom: 15px !important;
+	}
+}
 .picBody{
 	background-color: #f3f4f8;
 	margin: 0 auto;
@@ -153,6 +137,9 @@ body{
 .FMP{
 	padding: 1px;
 }
+.WorkWithUs{
+	background-color: white;
+}
 .WWU{
 	margin: 0 auto;
 	text-align: center;
@@ -167,6 +154,9 @@ body{
 }
 .WWU p{
 	padding-bottom: 20px;
+}
+.WWU button:focus{
+	outline: none;
 }
 .WWU button{
 	font-weight: bold;
@@ -205,29 +195,6 @@ body{
 	color: #a5b2c2;
 	padding-bottom: 5px;
 }
-.updates{
-	color: #a5b2c2;
-	display: inline;
-	padding: 17px 5px 17px 10px;
-	background: #4f5c6d;
-	border-radius: 5px;
-	border-color: #4f5c6d;
-}
-.bottom input{
-	color: #a5b2c2;
-	background: #4f5c6d;
-	border: 0;
-	padding: 0;
-}
-.bottom button{
-	color: white;
-	margin: 0 auto;
-	font-weight: bold;
-	background: #00bb9c;
-	padding: 5px;
-	border-radius: 5px;
-}
-
 .footer{
 	background: #293646;
 	padding: 25px 0;
