@@ -70,6 +70,11 @@ body{
 .TextnIcon{
 	background-color: white;
 }
+.Slide1-Cap{
+	position: relative;
+	top: -350px;
+	left: 200px;
+}
 .midTop{
 	color: #516b82;
 	padding: 50px 0;
